@@ -1,0 +1,108 @@
+#home-cta-container {
+    width: 60%;
+    margin: auto;
+}
+
+.home-cta-image-container {
+    img {
+        margin-top: auto;
+        margin-bottom: auto;
+        object-fit: contain;
+        width: 239px;
+        height: 150px;
+        @include respond-below("lg") {
+            height: 200px;        
+        }
+    }
+}
+
+#cta-covid-separator-image {
+    width: 100%;
+    max-width: 133px;
+}
+
+.home-cta-text {
+    font-size: 1.4em;
+    line-height: 1.4em;
+    font-weight: 400;
+    align-self: center;
+    strong {
+        font-weight: 900;
+    }
+}
+
+#home-cta-btn-researchers {
+    background-color: #d04a43 !important;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: 0;
+    padding: .7em 1.5em;
+    transition: background-color .15s ease-in-out;
+    &:hover {
+        background-color: #a23833!important;
+        transition: background-color .15s ease-in-out;
+    }
+}
+
+#home-cta-btn-volunteers {
+    background-color: #0d0149!important;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: 0;
+    padding: .7em 1.5em;
+    transition: background-color .15s ease-in-out;
+    &:hover {
+        background-color: #4e4679!important;
+        transition: background-color .15s ease-in-out;
+    }
+}
+
+#home-cta-btn-contact {
+    background-color: #d1d3d3 !important;
+    color: #333;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: 0;
+    padding: 12px 40px;
+    transition: background-color .15s ease-in-out;
+    &:hover {
+        background-color: #b3b3b3 !important;
+        transition: background-color .15s ease-in-out;
+    }
+}
+
+.home-text-container {
+    p {
+        font-size: 18px;
+    }
+}
+.home-contains-image {
+    text-align: center;
+    img {
+        width: 100%;
+        max-width: 1020px;
+    }
+}
+
+.home-some-container {
+    ul {
+        list-style-type: none;
+        padding: 0px;
+        li {
+            display: inline-block;
+            padding-right: 10px;
+            &:last-child {
+                padding-right: 0px;
+            }
+            img {
+                max-width: 48px;
+            }
+        }
+    }
+}
